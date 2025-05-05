@@ -66,8 +66,13 @@
       <option value="Corporate">Corporate</option>
       <option value="Other">Other</option>
     </select>
+    <input type="text" name="city" placeholder="Your City" required>
+    <input type="text" name="address" placeholder="Your Address" required>
+    <input type="text" name="contactNumber" placeholder="Your Contact Number" required>
+
     <button type="submit">Book Now</button>
   </form>
 </div>
+
 </body>
 </html>

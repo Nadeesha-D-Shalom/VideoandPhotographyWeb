@@ -26,16 +26,21 @@ public class AddBookingServlet extends HttpServlet {
         String name = request.getParameter("customerName");
         String date = request.getParameter("eventDate");
         String type = request.getParameter("eventType");
+        String city = request.getParameter("city");
+        String address = request.getParameter("address");
+        String contactNumber = request.getParameter("contactNumber");
 
-        if (name != null && date != null && type != null &&
-                !name.isEmpty() && !date.isEmpty() && !type.isEmpty()) {
+        if (name == null || date == null || type == null ||
+                city == null || address == null || contactNumber == null ||
+                name.trim().isEmpty() || date.trim().isEmpty() || type.trim().isEmpty() ||
+                city.trim().isEmpty() || address.trim().isEmpty() || contactNumber.trim().isEmpty()) {
 
-            Booking booking = new Booking(name, date, type);
-            bookingManager.addBooking(booking);
-
-            response.sendRedirect("bookingSuccess.jsp");
-        } else {
             response.sendRedirect("bookingError.jsp");
+            return;
         }
+
+        Booking booking = new Booking(name, date, type, city, address, contactNumber);
+        bookingManager.addBooking(booking);
+        response.sendRedirect("bookingSuccess.jsp");
     }
 }

@@ -3,10 +3,12 @@ package com.example.videoandphotographyweb.Manager;
 
 import com.example.videoandphotographyweb.Classes.Booking;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Scanner;
 
 public class BookingManager {
     private Queue<Booking> bookingQueue = new LinkedList<>();
@@ -25,7 +27,25 @@ public class BookingManager {
         }
     }
 
-    public Queue<Booking> getAllBookings() {
+    public Queue<Booking> loadBookingsFromFile() {
+        Queue<Booking> queue = new LinkedList<>();
+        try (Scanner scanner = new Scanner(new File(FILE_PATH))) {
+            while (scanner.hasNextLine()) {
+                String line = scanner.nextLine();
+                String[] parts = line.split(",");
+                if (parts.length == 6) {
+
+                    Booking booking = new Booking(parts[0], parts[1], parts[2], parts[3], parts[4], parts[5]);
+                    queue.add(booking);
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return queue;
+    }
+
+    public Queue<Booking> getBookingQueue() {
         return bookingQueue;
     }
 }
