@@ -7,7 +7,7 @@ import java.util.*;
 
 public class UserManager {
     private List<User> users = new ArrayList<>();
-    private static final String FILE_PATH = "E:/SLIIT_Bacholer/_1_Year_sem2/OOP_External_Project/VideoandPhotographyWeb/users.txt";
+    private static final String FILE_PATH = "users.txt";
 
     public UserManager() {
         try {
