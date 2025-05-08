@@ -1,5 +1,7 @@
 package com.example.videoandphotographyweb.Classes;
 
+import java.sql.Struct;
+
 public class Booking {
     private String customerName;
     private String eventDate;
@@ -7,18 +9,20 @@ public class Booking {
     private String city;
     private String address;
     private String contactNumber;
+    private String mediaProID;
 
 
     public Booking() {
     }
 
-    public Booking(String customerName, String eventDate, String eventType, String city, String address, String contactNumber) {
+    public Booking(String customerName, String eventDate, String eventType, String city, String address, String contactNumber, String mediaProID) {
         this.customerName = customerName;
         this.eventDate = eventDate;
         this.eventType = eventType;
         this.city = city;
         this.address = address;
         this.contactNumber = contactNumber;
+        this.mediaProID = mediaProID;
     }
 
 
@@ -66,13 +70,21 @@ public class Booking {
         return contactNumber;
     }
 
+    public String getMediaProID() {
+        return mediaProID;
+    }
+    public void setMediaProID(String mediaProID) {
+        this.mediaProID = mediaProID;
+    }
     public void setContactNumber(String contactNumber) {
         this.contactNumber = contactNumber;
     }
 
     @Override
     public String toString() {
-        return customerName + "," + eventDate + "," + eventType + "," + city + "," + address + "," + contactNumber;
+        return customerName + "," + eventDate + "," + eventType + "," +
+                city + "," + address + "," + contactNumber + "," + mediaProID;
     }
+
 }
 

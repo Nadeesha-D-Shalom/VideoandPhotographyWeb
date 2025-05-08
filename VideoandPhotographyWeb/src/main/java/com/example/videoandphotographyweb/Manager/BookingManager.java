@@ -33,9 +33,9 @@ public class BookingManager {
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 String[] parts = line.split(",");
-                if (parts.length == 6) {
+                if (parts.length == 7) {
 
-                    Booking booking = new Booking(parts[0], parts[1], parts[2], parts[3], parts[4], parts[5]);
+                    Booking booking = new Booking(parts[0], parts[1], parts[2], parts[3], parts[4], parts[5], parts[6]);
                     queue.add(booking);
                 }
             }

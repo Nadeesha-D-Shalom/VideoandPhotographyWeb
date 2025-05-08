@@ -69,6 +69,7 @@
     <input type="text" name="city" placeholder="Your City" required>
     <input type="text" name="address" placeholder="Your Address" required>
     <input type="text" name="contactNumber" placeholder="Your Contact Number" required>
+    <input type="text" name="mediaProID" placeholder=" Photographer or Videographer Name" required>
 
     <button type="submit">Book Now</button>
   </form>

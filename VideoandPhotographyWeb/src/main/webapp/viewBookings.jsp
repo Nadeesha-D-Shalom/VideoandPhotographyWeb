@@ -47,6 +47,7 @@
     <th>City</th>
     <th>Address</th>
     <th>Contact Number</th>
+    <th>Photographer Name</th>
   </tr>
   <%
     Queue<Booking> bookings = (Queue<Booking>) request.getAttribute("bookings");
@@ -60,13 +61,14 @@
     <td><%= b.getCity() %></td>
     <td><%= b.getAddress() %></td>
     <td><%= b.getContactNumber() %></td>
+    <td><%= b.getMediaProID() %></td>
   </tr>
   <%
     }
   } else {
   %>
   <tr>
-    <td colspan="6">No bookings found.</td>
+    <td colspan="7">No bookings found.</td>
   </tr>
   <% } %>
 </table>
