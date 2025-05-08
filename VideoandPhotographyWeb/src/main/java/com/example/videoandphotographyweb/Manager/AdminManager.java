@@ -6,7 +6,7 @@ import java.io.File;
 import java.util.Scanner;
 
 public class AdminManager {
-    private static final String FILE_PATH = "admins.txt";
+    private static final String FILE_PATH = "E:/SLIIT_Bacholer/_1_Year_sem2/OOP_External_Project/VideoandPhotographyWeb/admins.txt";
 
     public boolean validateAdmin(String username, String password) {
         try (Scanner scanner = new Scanner(new File(FILE_PATH))) {

@@ -17,7 +17,8 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f0f4f8;
+      background: url('assets/img/hero/h1_hero1.png') no-repeat center center fixed;
+      background-size: cover;
       margin: 0;
       padding: 0;
     }
@@ -26,7 +27,7 @@
       max-width: 800px;
       margin: 60px auto;
       padding: 30px;
-      background: white;
+      background: rgba(255, 255, 255, 0.58);
       border-radius: 12px;
       box-shadow: 0 0 10px rgba(0,0,0,0.15);
       text-align: center;
