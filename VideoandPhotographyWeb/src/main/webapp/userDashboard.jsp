@@ -16,7 +16,6 @@
   <title>Drone Photography</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="manifest" href="site.webmanifest">
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
   <!-- CSS here -->
@@ -110,7 +109,7 @@
                 <h4 style="color: white;" data-animation="fadeInUp" data-delay="0.3s">Welcome, <%= username %> 👋</h4>
                 <p data-animation="fadeInUp" data-delay="0.4s">Duis aute irure dolor inasfa reprehenderit in voluptate
                   velit esse cillum reeut cupidatatfug.</p>
-                <a href="#" class="hero-btn" data-animation="fadeInUp" data-delay="0.7s">Explore services</a>
+                <a href="service.jsp" class="hero-btn" data-animation="fadeInUp" data-delay="0.7s">Explore services</a>
               </div>
             </div>
           </div>
@@ -125,7 +124,7 @@
                 <h1 data-animation="bounceIn" data-delay="0.2s">Drone Photography<br> & Videography</h1>
                 <p data-animation="fadeInUp" data-delay="0.4s">Duis aute irure dolor inasfa reprehenderit in voluptate
                   velit esse cillum reeut cupidatatfug.</p>
-                <a href="#" class="hero-btn" data-animation="fadeInUp" data-delay="0.7s">Explore services</a>
+                <a href="viewMediaPros" class="hero-btn" data-animation="fadeInUp" data-delay="0.7s">Start Project</a>
               </div>
             </div>
           </div>
@@ -149,7 +148,7 @@
             <p>Aute irure dolor inasfa reprehenderit in voluptate velit esse
               cillum reeut cupidatatfug nulla pariatur. Excepteur sintxsdfas
               occaecat.</p>
-            <a href="#" class="btn black-btn">Explore services</a>
+            <a href="viewMediaPros" class="btn black-btn">Start Project</a>
           </div>
         </div>
         <div class="offset-xl-0 col-xl-6 offset-lg-0 col-lg-6 col-md-9 offset-md-1 offset-sm-1">
@@ -178,7 +177,7 @@
                 <img src="assets/img/gallery/services1.png" alt="">
               </div>
               <div class="cat-cap">
-                <h5><a href="services.html">Residential Real Estate Photography</a></h5>
+                <h5><a href="addBooking.jsp">Residential Real Estate Photography</a></h5>
                 <p>Aute irure dolor inasfa reprehenderit in voluptate velit esse cillum reeut cupidatatfug nulla pariatur.</p>
               </div>
             </div>
@@ -189,7 +188,7 @@
                 <img src="assets/img/gallery/services2.png" alt="">
               </div>
               <div class="cat-cap">
-                <h5><a href="services.html">Commercial Real Estate Photography</a></h5>
+                <h5><a href="addBooking.jsp">Commercial Real Estate Photography</a></h5>
                 <p>Aute irure dolor inasfa reprehenderit in voluptate velit esse cillum reeut cupidatatfug nulla pariatur.</p>
               </div>
             </div>
@@ -200,7 +199,7 @@
                 <img src="assets/img/gallery/services3.png" alt="">
               </div>
               <div class="cat-cap">
-                <h5><a href="services.html">Construction Site Monitoring</a></h5>
+                <h5><a href="addBooking.jsp">Construction Site Monitoring</a></h5>
                 <p>Aute irure dolor inasfa reprehenderit in voluptate velit esse cillum reeut cupidatatfug nulla pariatur.</p>
               </div>
             </div>
@@ -211,7 +210,7 @@
                 <img src="assets/img/gallery/services2.png" alt="">
               </div>
               <div class="cat-cap">
-                <h5><a href="services.html">Commercial Real Estate Photography</a></h5>
+                <h5><a href="addBooking.jsp">Commercial Real Estate Photography</a></h5>
                 <p>Aute irure dolor inasfa reprehenderit in voluptate velit esse cillum reeut cupidatatfug nulla pariatur.</p>
               </div>
             </div>
@@ -221,47 +220,7 @@
     </div>
   </section>
   <!-- Services End -->
-  <!--? video_start -->
-  <div class="video-area section-bg2 d-flex align-items-end fix"  data-background="assets/img/gallery/video-bg.png">
-    <!-- Video icon -->
-    <div class="video-icon" >
-      <a class="popup-video btn-icon" href="https://www.youtube.com/watch?v=up68UAfH0d0"><i class="fas fa-play"></i></a>
-    </div>
-    <div class="container">
-      <div class="video-contents">
-        <div class="row justify-content-between">
-          <div class="col-xl-5 col-lg-5 col-md-10">
-            <div class="section-tittle  mb-90">
-              <h2>How we work?</h2>
-              <p class="tittle-pera1">Inasfa reprehenderit in voluptate velit esse  cillum reeut cupidatatfug nulla pariatur.</p>
-              <p>Aute irure dolor inasfa reprehenderit in voluptate velit esse cillum reeut cupidatatfug nulla pariatur. Excepteur sintxsdfas occaecat.</p>
-              <a href="#" class="btn black-btn">Start a Project</a>
-            </div>
-          </div>
-          <div class="col-xl-5 col-lg-6 col-md-8">
-            <div class="edu-details">
-              <!-- single-item -->
-              <div class="single-items mb-50">
-                <span>Tell Us About Your Project</span>
-                <p>Aute irure dolor inasfa prehenderit  in voluptate velit esse cillum.</p>
-              </div>
-              <!-- single-item -->
-              <div class="single-items single-items2 mb-50">
-                <span>We'll Schedule a Flight</span>
-                <p>Aute irure dolor inasfa prehenderit in voluptate velit esse cillum.</p>
-              </div>
-              <!-- single-item -->
-              <div class="single-items single-items3 mb-50">
-                <span>We'll Schedule a Flight</span>
-                <p>Aute irure dolor inasfa prehenderit in voluptate velit esse cillum.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- video_end -->
+
   <!--? Visit Our Tailor Start -->
   <div class="visit-tailor-area fix">
     <!--Right Contents  -->
@@ -286,7 +245,7 @@
                 <img src="assets/img/gallery/services4.png" alt="">
               </div>
               <div class="cat-cap">
-                <h5><a href="services.html">Drone Inspection team from Terra Drone</a></h5>
+                <h5><a href="addBooking.jsp">Drone Inspection team from Terra Drone</a></h5>
               </div>
             </div>
           </div>
@@ -296,7 +255,7 @@
                 <img src="assets/img/gallery/services5.png" alt="">
               </div>
               <div class="cat-cap">
-                <h5><a href="services.html">Commercial Real Estate Photography</a></h5>
+                <h5><a href="addBooking.jsp">Commercial Real Estate Photography</a></h5>
               </div>
             </div>
           </div>
@@ -306,7 +265,7 @@
                 <img src="assets/img/gallery/services6.png" alt="">
               </div>
               <div class="cat-cap">
-                <h5><a href="services.html">Construction Site Monitoring</a></h5>
+                <h5><a href="addBooking.jsp">Construction Site Monitoring</a></h5>
               </div>
             </div>
           </div>
@@ -316,7 +275,7 @@
                 <img src="assets/img/gallery/services5.png" alt="">
               </div>
               <div class="cat-cap">
-                <h5><a href="services.html">Commercial Real Estate Photography</a></h5>
+                <h5><a href="addBooking.jsp">Commercial Real Estate Photography</a></h5>
               </div>
             </div>
           </div>
@@ -392,10 +351,6 @@
                   <div class="footer-pera">
                     <p>Duis aute irure dolor inasfa reprehenderit in voluptate velit esse cillum reeut cupidatatfug.</p>
                   </div>
-                  <ul class="mb-40">
-                    <li class="number"><a href="#">(80) 783 367-3904</a></li>
-                    <li class="number2"><a href="#">contact@carwash.com</a></li>
-                  </ul>
                 </div>
               </div>
             </div>
@@ -405,35 +360,11 @@
               <div class="footer-tittle">
                 <h4>Navigation</h4>
                 <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="userDashboard.jsp">Home</a></li>
+                  <li><a href="aboutus.jsp">About</a></li>
+                  <li><a href="addBooking.jsp">Services</a></li>
+                  <li><a href="contact.jsp">Contact</a></li>
                 </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
-            <div class="single-footer-caption mb-50">
-              <div class="footer-tittle">
-                <h4>Services</h4>
-                <ul>
-                  <li><a href="#">Drone Mapping</a></li>
-                  <li><a href="#"> Real State</a></li>
-                  <li><a href="#">Commercial</a></li>
-                  <li><a href="#">Construction</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
-            <div class="single-footer-caption mb-50">
-              <!-- social -->
-              <div class="footer-social">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-pinterest-p"></i></a>
               </div>
             </div>
           </div>
@@ -447,9 +378,7 @@
           <div class="row">
             <div class="col-xl-12 ">
               <div class="footer-copy-right text-center">
-                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                <p> Copyright ©2025 All rights reserved | Edited by PGNO 30 </p>
               </div>
             </div>
           </div>

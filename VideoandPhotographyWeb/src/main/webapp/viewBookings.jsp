@@ -45,7 +45,7 @@
     <th>Event Date</th>
     <th>Event Type</th>
     <th>City</th>
-    <th>Address</th>
+    <th>Postal Code</th>
     <th>Contact Number</th>
     <th>Photographer Name</th>
   </tr>

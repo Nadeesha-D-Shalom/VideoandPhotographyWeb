@@ -1,4 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+  String mediaProId = request.getParameter("mediaProId"); // capture ID from URL
+%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,13 +70,12 @@
       <option value="Other">Other</option>
     </select>
     <input type="text" name="city" placeholder="Your City" required>
-    <input type="text" name="address" placeholder="Your Address" required>
+    <input type="text" name="address" placeholder="Postal Code" required>
     <input type="text" name="contactNumber" placeholder="Your Contact Number" required>
-    <input type="text" name="mediaProID" placeholder=" Photographer or Videographer Name" required>
+    <input type="text" name="mediaProID" placeholder="Photographer or Videographer ID" value="<%= mediaProId != null ? mediaProId : "" %>" required>
 
     <button type="submit">Book Now</button>
   </form>
 </div>
-
 </body>
 </html>

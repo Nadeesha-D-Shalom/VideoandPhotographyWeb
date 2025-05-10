@@ -41,7 +41,7 @@
 <div class="message-box">
   <h1>🎉 Booking Successful!</h1>
   <p>Thank you for booking with us.</p>
-  <p><a href="addBooking.jsp">Book Another Event</a></p>
+  <p><a href="userDashboard.jsp">Go to Home</a></p>
 </div>
 </body>
 </html>

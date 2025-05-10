@@ -9,6 +9,7 @@
     return;
   }
 %>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,7 +75,7 @@
   <div class="btn-container">
     <a href="viewBookings" class="button">📋 View All Bookings</a>
     <a href="cancelBooking.jsp" class="button">🗑 Cancel Booking</a>
-    <a href="sortPhotographers.jsp" class="button">📊 Sort Photographers by Rating</a>
+    <a href="viewMediaPros" class="button">📊 Sort Photographers by Rating</a>
     <a href="index.html" class="button">🔙 Back to Homepage</a>
     <a href="logout" class="button" style="background:#dc3545;">🚪 Logout</a>
   </div>
