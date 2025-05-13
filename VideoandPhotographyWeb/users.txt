@@ -1,3 +1,4 @@
 qazwsx,qazwsx,0789658877,uswer@gmail.com
 user,qaz,0768548855,user11@gmail.com
 user123,123,0859876655,userf@gmail.com
+NewUser,1qaz,0727846611,user@gmail.com

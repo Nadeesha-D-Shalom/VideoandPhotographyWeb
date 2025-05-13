@@ -1,0 +1,2 @@
+BITH837452|Birthday Budget Pack|This is the Test Budget pack details|15000.0
+DW88219|Drone Pack|This is valid for Wedding Drone shoots only|16000.0

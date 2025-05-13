@@ -68,6 +68,7 @@
                   <nav>
                     <ul id="navigation">
                       <li><a href="userDashboard.jsp">Home</a></li>
+                      <li><a href="viewPackages.jsp">View Packages</a></li>
                       <li><a href="addBooking.jsp">Services</a></li>
                         <ul class="submenu">
                         </ul>

@@ -1,11 +1,10 @@
 package com.example.videoandphotographyweb.Manager;
 
-import com.example.videoandphotographyweb.Classes.Admin;
-
 import java.io.File;
 import java.util.Scanner;
 
 public class AdminManager {
+    // private static final String FILE_PATH = "/admins.txt";
     private static final String FILE_PATH = "E:/SLIIT_Bacholer/_1_Year_sem2/OOP_External_Project/VideoandPhotographyWeb/admins.txt";
 
     public boolean validateAdmin(String username, String password) {
@@ -22,3 +21,4 @@ public class AdminManager {
         return false;
     }
 }
+
