@@ -121,7 +121,7 @@
     <p><strong>📞 Phone:</strong> +(94) 112 448 55 55</p>
     <p><strong>📍 Location:</strong> 75 Street Malabe, 63025</p>
     <p><strong>📧 Email:</strong> <a href="mailto:video.hub1@gmail.com">video.hub1@gmail.com</a></p>
-    <p><strong>🌐 Template credit:</strong> <a href="https://nadeesha-d-shalom.github.io/Nadeesha_UI.github.io/" target="_blank">My Web Portfolio</a></p>
+    <p><strong>🌐 Template credit:</strong> <a href="#" target="_blank">My Web Portfolio</a></p>
 
     <div class="map-embed">
       <iframe

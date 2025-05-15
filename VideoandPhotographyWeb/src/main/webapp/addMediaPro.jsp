@@ -69,7 +69,11 @@
       <option value="Dronographer">Dronographer</option>
     </select>
     <button type="submit">Add Media Pro</button>
+    <br><br>
+    <a href="adminDashboard.jsp" style="padding:10px 20px; background-color:#af4c4c; color:white; border:none; border-radius:5px; text-decoration:none;">Back to Home</a>
+
   </form>
+
 </div>
 
 </body>

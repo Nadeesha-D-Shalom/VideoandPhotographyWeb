@@ -68,6 +68,9 @@
         <input type="date" name="eventDate" required>
         <button type="submit">Cancel Booking</button>
     </form>
+    <br>
+    <a href="adminDashboard.jsp" style="padding:10px 20px; background-color:#af4c4c; color:white; border:none; border-radius:5px; text-decoration:none;">Back to Home</a>
+
 </div>
 </body>
 </html>

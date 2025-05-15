@@ -28,20 +28,21 @@
       max-width: 800px;
       margin: 60px auto;
       padding: 30px;
-      background: rgba(255, 255, 255, 0.58);
+      background: rgba(255, 255, 255, 0.85);
       border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.15);
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
       text-align: center;
     }
 
     h2 {
       margin-bottom: 10px;
-      color: #333;
+      color: #222;
     }
 
     .welcome {
-      color: #666;
+      color: #444;
       margin-bottom: 25px;
+      font-size: 18px;
     }
 
     .btn-container {
@@ -60,11 +61,16 @@
       color: white;
       border-radius: 6px;
       font-weight: bold;
+      font-size: 16px;
       transition: background 0.3s;
     }
 
     a.button:hover {
       background: #005bb5;
+    }
+
+    a.logout {
+      background: #dc3545 !important;
     }
   </style>
 </head>
@@ -76,9 +82,10 @@
     <a href="viewBookings" class="button">📋 View All Bookings</a>
     <a href="cancelBooking.jsp" class="button">🗑 Cancel Booking</a>
     <a href="viewMediaPros" class="button">📊 Sort Photographers by Rating</a>
+    <a href="viewAdmins.jsp" class="button">👨🏻‍💼 Add New Admin</a>
     <a href="managePackages.jsp" class="button">🎁 Manage Packages</a>
     <a href="index.html" class="button">🔙 Back to Homepage</a>
-    <a href="logout" class="button" style="background:#dc3545;">🚪 Logout</a>
+    <a href="logout" class="button logout">🚪 Logout</a>
   </div>
 </div>
 </body>
