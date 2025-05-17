@@ -4,7 +4,9 @@ Event Photography and Videography Booking System - University OOP Project | SLII
 This system was developed as a university group project for the Object-Oriented Programming (SE1020) module at SLIIT. It provides a complete end-to-end solution for managing media professional bookings, including photographers, videographers, and dronographers.
 
 🔹 Users can register, log in, rate service providers, and make bookings.
+
 🔹 Admins have full access to manage users, media professionals, bookings, and event packages.
+
 🔹 The platform uses file handling (no databases) for data storage and is fully built with Java, JSP, and Servlet technologies.
 
 ✅ Applied OOP Concepts:
