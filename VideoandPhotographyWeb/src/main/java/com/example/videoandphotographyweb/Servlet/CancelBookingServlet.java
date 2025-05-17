@@ -51,7 +51,7 @@ public class CancelBookingServlet extends HttpServlet {
         }
 
         if (bookingFound) {
-            response.sendRedirect("viewBookings.jsp?status=success");
+            response.sendRedirect("bookingCancelSuccess.jsp");
         } else {
             response.sendRedirect("cancelBooking.jsp?error=notFound");
         }

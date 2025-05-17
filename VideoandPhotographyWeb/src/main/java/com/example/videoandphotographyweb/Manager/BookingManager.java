@@ -1,4 +1,3 @@
-// BookingManager.java
 package com.example.videoandphotographyweb.Manager;
 
 import com.example.videoandphotographyweb.Classes.Booking;

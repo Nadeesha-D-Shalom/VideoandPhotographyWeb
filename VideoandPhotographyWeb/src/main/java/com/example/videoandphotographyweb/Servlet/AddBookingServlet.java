@@ -29,7 +29,7 @@ public class AddBookingServlet extends HttpServlet {
         String contactNumber = request.getParameter("contactNumber");
         String mediaProID = request.getParameter("mediaProID");
 
-        // Basic validation
+        // ✅ Basic validation only — NO photographer check
         if (name == null || date == null || type == null || city == null ||
                 address == null || contactNumber == null || mediaProID == null ||
                 name.trim().isEmpty() || date.trim().isEmpty() || type.trim().isEmpty() ||
@@ -38,32 +38,10 @@ public class AddBookingServlet extends HttpServlet {
             return;
         }
 
-        // Validate if photographer exists in photographers.txt
-        boolean found = false;
-        File photographerFile = new File("E:/SLIIT_Bacholer/_1_Year_sem2/OOP_External_Project/VideoandPhotographyWeb/photographers.txt");
-
-        if (photographerFile.exists()) {
-            try (BufferedReader reader = new BufferedReader(new FileReader(photographerFile))) {
-                String line;
-                while ((line = reader.readLine()) != null) {
-                    String[] parts = line.split(",");
-                    if (parts.length > 0 && parts[0].equalsIgnoreCase(mediaProID.trim())) {
-                        found = true;
-                        break;
-                    }
-                }
-            }
-        }
-
-        if (!found) {
-            request.setAttribute("errorMessage", "No such photographer or videographer found.");
-            request.getRequestDispatcher("bookingError.jsp").forward(request, response);
-            return;
-        }
-
-        // Booking is valid
+        // ✅ Directly save the booking
         Booking booking = new Booking(name, date, type, city, address, contactNumber, mediaProID);
         bookingManager.addBooking(booking);
+
         response.sendRedirect("bookingSuccess.jsp");
     }
 }

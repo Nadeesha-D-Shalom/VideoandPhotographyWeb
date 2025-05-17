@@ -1,7 +1,5 @@
 package com.example.videoandphotographyweb.Classes;
 
-import java.sql.Struct;
-
 public class Booking {
     private String customerName;
     private String eventDate;
